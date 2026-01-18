@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DFIR Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔎 DFIR Analyzer Dashboard</h1>
+
+  <h2>📜 Incident Timeline</h2>
+  <div class="timeline">
+    {% for event in timeline %}
+      <p>{{ event }}</p>
+    {% endfor %}
+  </div>
+
+  <p class="note">Forensic report saved in <b>reports/forensic_report.txt</b></p>
+</div>
+
+</body>
+</html>

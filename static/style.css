@@ -1,0 +1,35 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #020617;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.7);
+}
+
+h1 {
+  text-align: center;
+}
+
+.timeline {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.timeline p {
+  margin-bottom: 6px;
+}
+
+.note {
+  margin-top: 15px;
+  color: #93c5fd;
+}

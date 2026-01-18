@@ -1,0 +1,11 @@
+DIGITAL FORENSICS REPORT
+========================================
+
+BROWSER: 2026-01-10 09:55:01 visited https://google.com
+BROWSER: 2026-01-10 10:05:22 visited http://suspicious-login.net
+BROWSER: 2026-01-10 10:06:10 visited http://malware-download.org
+SYSTEM: 2026-01-10 10:12:01 LOGIN_SUCCESS user=admin ip=192.168.1.10
+SYSTEM: 2026-01-10 10:13:45 LOGIN_FAILED user=admin ip=192.168.1.15
+SYSTEM: 2026-01-10 10:14:02 FILE_ACCESSED /etc/passwd
+SYSTEM: 2026-01-10 10:15:30 LOGIN_FAILED user=root ip=192.168.1.15
+SYSTEM: 2026-01-10 10:16:50 FILE_DELETED /var/log/auth.log
